@@ -1,0 +1,60 @@
+h1 {
+    font-family: "junegull", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+/* p{
+    font-family: "co-headline", sans-serif;
+font-weight: 400;
+font-style: normal;
+} */
+
+h5{
+    font-family: "macho", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.nav-item  {
+    font-family: "komet", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.dropdown-item {
+    font-family: "komet", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* .btn-primary {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #73777a;
+    background: #73777a;
+  }
+
+  .btn-primary:hover {
+    background: #73777a;
+    color: white;
+    border: white;
+  } */
+
+.navbar-brand {
+    font-family: "soleil", sans-serif;
+font-weight: 700;
+font-style: normal;
+} 
+
+
+

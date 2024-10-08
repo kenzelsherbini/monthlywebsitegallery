@@ -16,12 +16,16 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-
+    
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/smr8qal.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
 
   <body>
-
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -44,7 +48,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle m"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -77,44 +81,60 @@
           <h1 class="pt-3">Monthly Website Gallery</h1>
           <p>
             Honors Advanced Web Design
-            <br/>
+            <br />
             2024
           </p>
         </div>
       </div>
 
       <!--first row of cards-->
-      <div class="row d-flex justify-content-center align-items-center my-3">
-                <!--GALLERY DESCRIPTION CARD ON LG SCREEN-->
-                <div class="d-lg-none">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-                </div>
-        <!--October Website Card-->
-        <div class="col-lg-2 col-md-6 col-sm-12">
+      <div
+        class="row d-flex justify-content-center align-items-center my-3 pt-3"
+      >
+        <!--GALLERY DESCRIPTION CARD ON LG SCREEN-->
+        <div class="d-lg-none">
           <div class="card">
-            <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
-         <!--Nov Website Card-->
-        <div class="col-lg-2 col-md-6 col-sm-12">
-          <div class="card">
-            <img src="https://picsum.photos/300/150" class="card-img-top" alt="...">
+        <!--October Website Card-->
+        <div class="col-lg-2 col-md-6 col-sm-12 ">
+          <div class="card animate__animated animate__bounce">
+            <img
+              src="https://picsum.photos/300/150"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text ">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary ">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <!--Nov Website Card-->
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <div class="card">
+            <img
+              src="https://picsum.photos/300/150"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
@@ -124,40 +144,21 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
             </div>
           </div>
         </div>
-         <!--december Website Card-->
+        <!--december Website Card-->
         <div class="col-lg-2 col-md-6 col-sm-12">
           <div class="card">
-            <img src="https://picsum.photos/300/150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-         <!--jan Website Card-->
-        <div class="col-lg-2 col-md-6 col-sm-12">
-          <div class="card">
-            <img src="https://picsum.photos/300/150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-       <!--second row of cards-->
-       <div class="row d-flex justify-content-center align-items-center mb-3">
-        <!--Febraury Website Card-->
-        <div class="col-lg-2 col-md-6 col-sm-12">
-          <div class="card">
-            <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
+            <img
+              src="https://picsum.photos/300/150"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">
@@ -168,13 +169,62 @@
             </div>
           </div>
         </div>
-         <!--March Website Card-->
+        <!--jan Website Card-->
         <div class="col-lg-2 col-md-6 col-sm-12">
           <div class="card">
-            <img src="https://picsum.photos/300/150" class="card-img-top" alt="...">
+            <img
+              src="https://picsum.photos/300/150"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--second row of cards-->
+      <div
+        class="row d-flex justify-content-center align-items-center mb-3 pb-5"
+      >
+        <!--Febraury Website Card-->
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <div class="card">
+            <img
+              src="https://picsum.photos/300/150"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <!--March Website Card-->
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <div class="card">
+            <img
+              src="https://picsum.photos/300/150"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
@@ -182,38 +232,58 @@
         <!--April-->
         <div class="col-lg-2 col-md-6 col-sm-12">
           <div class="card">
-            <img src="https://picsum.photos/300/150" class="card-img-top" alt="...">
+            <img
+              src="https://picsum.photos/300/150"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
-         <!--May-->
+        <!--May-->
         <div class="col-lg-2 col-md-6 col-sm-12">
-          <div class="card" >
-            <img src="https://picsum.photos/300/150" class="card-img-top" alt="...">
+          <div class="card">
+            <img
+              src="https://picsum.photos/300/150"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
-         <!--Jan-->
+        <!--Jan-->
         <div class="col-lg-2 col-md-6 col-sm-12">
-          <div class="card" >
-            <img src="https://picsum.photos/300/150" class="card-img-top" alt="...">
+          <div class="card">
+            <img
+              src="https://picsum.photos/300/150"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
       </div>
-
     </main>
 
     <footer>
@@ -229,7 +299,7 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-      crossorigin="anonymous"></script>
-
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
