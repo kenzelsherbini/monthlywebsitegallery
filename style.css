@@ -28,7 +28,7 @@ font-style: normal;
     font-style: normal;
 }
 
-/* .btn-primary {
+ .btn-primary {
     min-width: 130px;
     height: 40px;
     color: #fff;
@@ -48,7 +48,7 @@ font-style: normal;
     background: #73777a;
     color: white;
     border: white;
-  } */
+  } 
 
 .navbar-brand {
     font-family: "soleil", sans-serif;
@@ -56,5 +56,25 @@ font-weight: 700;
 font-style: normal;
 } 
 
+.card:hover {
+    transform: scale(1);
+	animation: pulse 2s infinite;
+}
 
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
 
