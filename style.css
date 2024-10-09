@@ -4,11 +4,11 @@ font-weight: 400;
 font-style: normal;
 }
 
-/* p{
-    font-family: "co-headline", sans-serif;
-font-weight: 400;
+p{
+    font-family: "gesta", sans-serif;
+font-weight: 300;
 font-style: normal;
-} */
+} 
 
 h5{
     font-family: "macho", sans-serif;
@@ -64,17 +64,22 @@ font-style: normal;
 @keyframes pulse {
 	0% {
 		transform: scale(0.95);
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
 	}
 
 	70% {
 		transform: scale(1);
-		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
 	}
 
 	100% {
 		transform: scale(0.95);
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 	}
 }
 
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-brand i {
+    width: 70px;
+    height: 50px;
+}
